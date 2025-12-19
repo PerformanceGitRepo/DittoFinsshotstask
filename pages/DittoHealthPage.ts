@@ -2,13 +2,6 @@ import { expect, Page } from '@playwright/test';
 import BasePage from './BasePage';
 import { text } from 'node:stream/consumers';
 
-// export interface PremiumBreakup {
-//     base: number;
-//     riders: number;
-//     gst: number;
-//     total: number;
-// }
-
 export default class DittoHealthPage extends BasePage {
 
     constructor(page: Page) {
