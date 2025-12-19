@@ -10,7 +10,6 @@ export default class DittoHealthPage extends BasePage {
 
     async selectHDFCErgoOptimaSecure() {
         await this.page.locator('div').filter({ hasText: /^HDFCERGOOptima Secure$/ }).nth(1).click();
-        //await this.page.getByText('HDFC ERGO Optima Secure').click();
     }
 
     async clickNext(times: number) {
