@@ -1,5 +1,5 @@
 import { test} from '@playwright/test';
-import DittoHealthPage, { PremiumBreakup } from '../pages/DittoHealthPage';
+import DittoHealthPage from '../pages/DittoHealthPage';
 
 test('Verify Ditto total premium calculation', async ({ page }) => {
   const ditto = new DittoHealthPage(page);
